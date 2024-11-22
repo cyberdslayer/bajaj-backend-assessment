@@ -7,7 +7,7 @@ const cors = require('cors');
 
 // Allow specific origin
 app.use(cors({
-  origin: 'https://bfhl-gold.vercel.app', // Your frontend URL
+  origin: '*', // Your frontend URL
   methods: ['GET', 'POST'], // Allowed methods
 }));
 
